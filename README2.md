@@ -118,6 +118,7 @@
 1.  **工作记录**: 在**飞书**上快速同步：昨天做了什么？今天计划做什么？遇到了什么问题？
 2.  **领取任务**: 从 **GitHub Issues** 中发布或领取一个任务（比如 "Issue #5: 实现 Exp 算子"）。(可以不用)
 3.  **开始编码**:
+    * 先切换到自己的分支和tmux中 `tmux a -t <姓名>` `git checkout <分支名>`
     *   `git checkout main`, `git fetch upstream`, `git merge upstream/main` (同步最新代码)。
     *   `git checkout -b feature/exp-operator-#5` (创建新分支，并关联 Issue)。
 4.  **合作解决问题**: 开发中遇到困难，通过 **VS Code Live Share** 邀请队友一起结对调试。
